@@ -1,0 +1,19 @@
+{
+    "name": "giantpeach/statamic-custom-styles",
+    "autoload": {
+        "psr-4": {
+            "Giantpeach\\CustomStyles\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Bard Custom Styles",
+            "description": "Custom Styles addon"
+        },
+        "laravel": {
+            "providers": [
+                "Giantpeach\\CustomStyles\\ServiceProvider"
+            ]
+        }
+    }
+}
